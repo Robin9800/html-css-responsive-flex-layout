@@ -37,9 +37,15 @@
 .white{
     color: white;
 }
+.white-variant{
+    background-color: white;
+}
 
 .blu{
     background-color: hsl(209deg 100% 50%);
+}
+.variant-blu{
+    background-color: hsl(210deg 97% 86%);
 }
 
 .green{
@@ -74,11 +80,11 @@
 /*header*/
 .header{
     width: 100%;
-    height: 11vh;
 }
 
 .header img{
     width: 10%;
+    margin: 14px 0px;
 }
 
 .header a{
@@ -98,7 +104,6 @@
 }
 .first-square{
     margin-top: 13%;
-    background-color: hsl(210deg 97% 86%);
     height: 90vh;
     width: 75%;
     border-radius: 18px;
@@ -140,4 +145,33 @@ main a{
 .line{
     margin-left: 4px;
     border-bottom: 1px solid hsl(244deg 55% 72%); ;
+}
+/*BIG-SECTION*/
+.big-section{
+    background-color: hsl(243deg 63% 74%);
+    width: 100%;
+    height: 200vh;
+}
+
+.big-section h1{
+    align-self: start;
+    margin-top: 70%;
+}
+
+.white-variant h1{
+    margin-top: 70%;
+}
+.white-variant{
+    text-align: center;
+}
+.white-variant i{
+    color: black;
+}
+.white-variant a{
+    padding: 14px 20px;
+    margin: 0px 0px 0px 0px;
+    background-color: hsl(241deg 63% 85%);
+}
+.download{
+    width: 100%;
 }
